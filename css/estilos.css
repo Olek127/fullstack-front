@@ -1,0 +1,28 @@
+.campos_div {
+    display: block;
+    padding: 2px;
+}
+
+.campos_div label, .campos_div input{
+    display:inline-block;
+}
+
+* {
+    font-family: Verdana;
+}
+
+.cliente_div {
+    background-color: #55ccff;
+    border: 2px solid rgb(21, 1, 196);
+    width: 40%;
+}
+
+.pedido_div {
+    background-color: #40ccbb;
+    border: 2px solid rgb(1, 53, 17);
+    width: 40%;
+}
+
+img, h1 {
+    display: inline-block;
+}
