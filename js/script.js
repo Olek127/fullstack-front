@@ -12,13 +12,13 @@ document.getElementById("formulario").addEventListener("submit", function(event)
 
 $("#tam").on('change', function() {
     console.log(this.value);
-    
+    var tamano = this.value
     $.ajax(
         {
             url: "http://localhost:5000/checksize",
             type: "POST",
             data: {
-                tam: this.value
+                tam: tamano
             },
             success: function(response){
                 $("#resultado_tamano").html(response);
